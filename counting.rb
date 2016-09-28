@@ -45,7 +45,7 @@ count(100, ["Jim", "Garrett", "Sammie", "Dave", "Will", "Bubba", "Billy", "Sabri
 Advanced version follows
 =end
 
-def printit(friends, total_number)
+def count(friends, total_number)
 	
 	number = 1
 	direction = 1
@@ -90,6 +90,6 @@ puts "Enter the number of friends"
 counters = gets.chomp.to_i
 
 puts "How high do you want them to count?"
-count = gets.chomp.to_i
+count_total = gets.chomp.to_i
 
-printit(counters, count)
+count(counters, count_total)
