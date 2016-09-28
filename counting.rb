@@ -21,6 +21,8 @@ def count(total_number, friends)
 		if number % 11 == 0
 			if direction == 1 && friend == 9
 				friend = 0
+			elsif direction == -1 && friend == 0
+				friend = 9				
 			else
 				friend += direction
 			end
